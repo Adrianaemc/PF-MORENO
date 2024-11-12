@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .consulta-container,
+    .farmacia-container,
+    .tienda-container,
+    .nuestros_servicios2 {
+
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .consulta-container img,
+    .farmacia-container img,
+    .tienda-container img {
+        width: 40%;
+        margin-right: 20px; 
+    }
+}
